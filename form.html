@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Form page</title>
+    <html lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Joseph Cornell">
+    <meta name="keywords" content="HTML, CSS, Javascript">
+  </head>
+  <body>
+    <h1>"HTML Form Learning Page"</h1>
+    <form method="POST" action="http://localhost:3000/profile"></form>
+      <form>
+        <div>
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname">
+        </div>
+        <div>
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="iname" name="lname">
+
+        <h3>Choose your Payment Method</h3>
+        <div>
+            <input type="radio" id="mastercard" name="credit_crad" value="MasterCard">
+            <label for="mastercard">MasterCard</label><br>
+        </div>
+        <div>
+            <input type="radio" id="visa" name="credit_card" value="VISA">
+            <label for="visa">VISA</label><br>
+        </div>
+        <div>
+            <input type="radio" id="american express" name="credit_card" value="American Express">
+            <label for="american express">American Express</label>
+        </div>
+        <h3>Choose favorite Brand</h3>
+         <div>
+           <input type="checkbox" id="Nike" name="shoe" value="Nike">
+           <label for="nike">Nike</label><br>
+        </div>
+        <div>
+            <input type="checkbox" id="vans" name="shoe" value="Vans">
+            <label for="vans">Vans</label><br>
+       </div>
+        <div>
+            <input type="checkbox" id="converse" name="shoe" value="Converse">
+            <label for="converse">Converse</label><br>
+        </div>
+        <label for="shoe">Choose a shoe:</label>
+
+    <select name="shoe" id="shoe">
+        <option value="Nike">Nike</option>
+        <option value="vans">Vans</option>
+        <option value="converse">Converse</option>
+    </select>
+    <div>
+    <input type="submit" value="Submit">
+    </div>
+</form>
+ <header>
+      <nav>
+        <!-- works like <a href="/index.html">Home</a> -->
+        <a href="/index.html">Index</a>
+      </nav>
+    </header>
+    <main>
+    </main>
+    <footer>Copyright 2023 &copy;</footer>
+  </body>
+</html>
