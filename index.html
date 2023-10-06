@@ -7,10 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Joseph Cornell">
     <meta name="keywords" content="HTML, CSS, Javascript">
+    <style>
+      table, th, td {
+          border: 1px solid black;
+      }
+  </style>
+  
 </head>
   <body>
     <h1>"HTML Learning Page"</h1>
-    <Article>
+    <article>
       <h2>"How the elements div, span, p, pre, ul, ol, li, and article works in HTML"</h2>
     <div>Computers</div>
     <div>Software Engineer</div>
@@ -41,7 +47,36 @@
       <li>Status</li>
       <li>Connection</li>
     </ol>
-    </Article>
+    </article>
+    <article>
+      <h2></h2>
+      <table>
+        <tr>
+          <thead>
+            <tr>
+          <th colspan="2">First header</th>
+          <th>Second header</th>
+            </tr>
+         <thead>
+          <tbody>
+            <tr>
+          <td>First cell - first row</td>
+          <td>Second cell - first row</td>
+          <td>Third cell - first row</td>
+          </tr>
+          <tr>
+            <td>Second cell - second row</td>
+            <td>Second cell - second row</td>
+            <td>Third cell - second row</td>
+            </tr>
+            <tr>
+              <td colspan="2">First cell - third row</td>
+              <td>Second cell - third row</td>
+          </tr>
+      
+          </tbody>
+      </table>
+    </article>
     <header>
       <nav>
         <!-- works like <a href="/index.html">Home</a> -->
