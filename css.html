@@ -44,17 +44,58 @@
         background-repeat: no-repeat;
       }
       
-
-
-      /* III. Position */
+            /* III. Position */
+      div.position-absolute {
+         position: top;
+      }
+      div.position-relative {
+        position: bottom;
+      }
+      div.position-sticky {
+        position: sticky;
+        top: 10;
+        border: 10px solid green;
+      }
 
 
       /* IV. Styling text */
 
+      p.text-style {
+        color: blue;
+        font-size: large;
+        line-height: 30px;
+        font: weight 800px;
+        text-align: justify;
+        letter-spacing: normal;
+        word-spacing: normal;
+        text-transform: capitalize;
+        text-decoration:line-through
+ }
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+  font-family:
+       'Roboto', sans-serif;
+
+
+      a:link {
+        color: rgb(139, 0, 7);
+      }
+      a:visited {
+        color: green;
+      }
+      a:hover {
+        color:brown ;
+      }
+      a:active {
+        color: yellow;
+      }
+
 
       /* VI. calc() */
-
-    </style>
+      div.calc-style {
+        width: calc(100vw - 100px);
+    }
+</style>
   </head>
   <body>
     <h1>My CSS journey</h1>
