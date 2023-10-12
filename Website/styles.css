@@ -37,6 +37,12 @@ main {
     margin-left: 40px;
     height: 600px;
 }
+.social-links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.social-links
 main h2 {
     font-size: 30px;
     text-decoration-line: underline;
@@ -67,8 +73,10 @@ main li {
     margin-top: 1px;
     border-radius: 50%;
     text-decoration: none;
+    display: flex;
     text-align: center;
     justify-content: center;
+    align-items: center;
 
    
 }
