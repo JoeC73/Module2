@@ -31,8 +31,16 @@ body {
           line-height: 100px;
           font-size: 30px;
           border-radius: 50%;
+          
   }
-      .fa-google  {
+
+  .fa-linkedin:hover {
+         background-color: white;
+         color: gray;
+         border-color: blue;
+         border-style: solid;
+  }
+      .fa-google {
          font-size: 30px;
          background: red;
          line-height: 100px;
@@ -41,6 +49,13 @@ body {
          text-align: center;
          border-radius:50%;
          color: white;
+         
+  }
+  .fa-google:hover {
+    background-color: white;
+    color: red;
+    border-color: red;
+    border-style: solid;
   }
   article {
       font-size: 20px;
