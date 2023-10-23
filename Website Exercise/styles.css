@@ -1,98 +1,110 @@
-
 body {
-    margin: 0;
-    padding: 0;
-    box-sizing: box-border;
-    background-image: url(landscape.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-      header {
-         display: flex;
-         text-align: center;
-         font-size: 50px;
-          justify-content: center;
-          background-color: green;
-          animation: example 5s infinite;
-    }
-       .item1 {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          justify-content: space-around;
-         
-     }
-  
-       .fa-linkedin {
-          background: gray;
-          width: 100px;
-         margin: 10px;
-          text-align: center;
-          line-height: 100px;
-          font-size: 30px;
-          border-radius: 50%;
-          
-  }
+  margin: 0;
+  padding: 2rem;
+  box-sizing: box-border;
+  background-image: url(landscape.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+header {
+  display: flex;
+  text-align: center;
+  font-size: 50px;
+  justify-content: center;
+  background-color: green;
+  animation: example 5s infinite;
+  margin-bottom: 2rem;
+}
+.item1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+}
 
-  .fa-linkedin:hover {
-         background-color: white;
-         color: gray;
-         border-color: blue;
-         border-style: solid;
-  }
-      .fa-google {
-         font-size: 30px;
-         background: red;
-         line-height: 100px;
-          width: 100px;
-         margin: 10px;
-         text-align: center;
-         border-radius:50%;
-         color: white;
-         
-  }
-  .fa-google:hover {
-    background-color: white;
-    color: red;
-    border-color: red;
-    border-style: solid;
-  }
-  article {
-      font-size: 20px;
-      width: 400px;
-      margin-right: 20px;
-    
-  }
-  .item2 {
-          display: flex;
-          flex-direction: row;
-           align-items: center;
-          justify-conten: center;
-          line-height: 1.5;
-        
-  }
-  .item3 {
-   background-color: lightgreen;
-   width:350px;
-    text-align: center;
-  }
-   img {
-    border-radius: 50%;
-  }
-   
-  section {
+.fa-linkedin {
+  background: gray;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 30px;
+  border-radius: 50%;
+}
+
+.fa-linkedin:hover {
+  background-color: white;
+  color: gray;
+  border-color: blue;
+  border-style: solid;
+}
+.fa-google {
+  font-size: 30px;
+  background: red;
+  line-height: 100px;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 50%;
+  color: white;
+}
+.fa-google:hover {
+  background-color: white;
+  color: red;
+  border-color: red;
+  border-style: solid;
+}
+article {
+  font-size: 20px;
+  width: 400px;
+  margin-right: 20px;
+}
+.item2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.5;
+}
+.item3 {
+  background-color: lightgreen;
+  width: 350px;
+  text-align: center;
+}
+img {
+  border-radius: 50%;
+}
+
+section {
   margin-right: 50px;
-  }
+}
 
-  @keyframes example {
-    from {background-color: green}
-    to {background-color: blue}
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  /* border-color: green; */
+  border-style: solid;
+  display: flex;
+  background-color: white;
+  color: black;
+  justify-content: center;
+}
+
+@keyframes example {
+  from {
+    background-color: green;
   }
-  
-  @media screen and (max-width: 800px) {
-    .item2, .item3  { 
-         flex-direction: column;
-     }
- 
- }
- 
+  to {
+    background-color: blue;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .item2,
+  .item3 {
+    flex-direction: column;
+  }
+}
